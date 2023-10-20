@@ -1,0 +1,141 @@
+nav > span {
+    display:flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+b {
+    font-size: 25px;
+    font-style:inherit;
+}
+
+nav > span > img {
+    height:50px;
+    width: auto
+}
+
+nav {
+    position:fixed;
+    display:flex;
+    width:100%;
+    align-items: center;
+    height:50px;
+    border-bottom:2px solid #222222;
+    background-color:white;
+
+}
+
+nav > ul {
+    margin-left:auto;
+    margin-right:16px;
+}
+
+nav > ul > li {
+    display:inline-block;
+    font-size:25px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+header {
+    text-align:center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 55px;
+    background-color:deepskyblue;
+    border-bottom:2px solid #222222;
+}
+
+header h1 {
+    font-size: 50px;
+    margin:10px;
+}
+
+header p {
+   font-size: 25px; 
+}
+
+h2 {
+    font-size:35px;
+    text-align:center;
+}
+
+img {
+    width:100%;
+}
+
+.flex-container {
+    font-size:25px;
+    display:flex;
+    margin-bottom:auto;
+}
+
+.section-video {
+    width:100%;
+    height: 100%;
+}
+
+section > div > div > h2 {
+    font-size:25px;
+    background-color:black;
+    color:deepskyblue;
+    margin:auto;
+    
+}
+
+.facts {
+    width:100%;
+    margin:0px;
+    justify-content:center;
+    background-color: black;
+    color:white;
+}
+
+.container-facts {
+    background-color: deepskyblue;
+    border-bottom:2px solid deepskyblue;
+}
+
+.about-turtle {
+    text-align: center;
+    justify-content: center;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width:100%;
+    padding:4px 4px;
+    margin: 8px 0;
+    display:block;
+}
+
+#form-section {
+    background-color:#000000;
+    color:white;
+    padding:8px;
+    margin-top;16px;
+}
+
+#form-section form {
+    max-width:480px;
+    margin-left:auto;
+    margin-right:auto
+}
+
+button[type="submit"] {
+    color:white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius:4px;
+    width:100%;
+    padding:8px 16px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
