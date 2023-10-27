@@ -1,0 +1,240 @@
+@media screen and (max-width:512px) {
+
+    .container-nav {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container1 {
+        max-height: 40px;
+        background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container1 .site-logo img {
+        max-height: 40px;
+    }
+
+    .site-search {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .site-search .form-input {
+        max-width: 100%;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 20px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .site-search-btn img{
+        max-height: 10px;
+        align-items: center;
+    }
+
+    .new-menu-button {
+        border: 1px solid black;
+        align-content: center;
+    }
+
+    .new-menu-button img {
+        max-width: 25px;
+        max-height: 25px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .gridnav1 {
+        display: none;
+    }
+
+    .container2 {
+        display:none
+    }
+
+    .feature-brands-grid {
+        display: grid;
+        align-content: center;
+    }
+
+    .brand {
+        width: 100px;
+        color: white;
+        border: 1px solid black;
+        align-content: center;
+        vertical-align: middle;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .home-section-heading {
+        font-size: 14px;
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 25px;
+    }
+
+    .judul-promotion {
+        font-size: 14px;
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 25px;
+    }
+
+    .promo-utama {
+        width: 100%;
+    }
+
+    .promo2 {
+        display: flex;
+    }
+
+    .promo-sekunder {
+        width: 100%;
+    }
+
+    footer {
+        border-top: 1px solid rgb(202, 130, 130);
+        background-color: silver;
+    }
+
+    .column-utama {
+        display: grid;
+        width: 100%;
+    }
+
+    .column-footer {
+        display:grid;
+        justify-content: center;
+    }
+
+    .column-footer ul {
+        font-size: 12px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .column-footer ul a {
+        font-size: 12px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .column-footer ul a h4{
+        font-size: 12px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .grid-1 {
+        display: flex;
+        justify-content: center;
+        height: 25px;
+    }
+
+    .grid-1 img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .grid-1 h3 {
+        font-size: 12px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .column-footer2 {
+        display:grid;
+        justify-content: center;
+    }
+
+    .grid-2 {
+        display: flex;
+        justify-content: center;
+        height: 25px;
+    }
+
+    .grid-2 h3 {
+        font-size: 12px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .grid-2 img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .grid-2 ul a img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .column-footer2 ul a img {
+        width: 25px;
+        height: 25px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    .column-footer2 ul a {
+        display: flex;
+        
+    }
+
+    .column-footer2 ul a h4 {
+        font-size: 12px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .column-footer3 {
+        display:grid;
+        justify-content: center;
+    }
+
+    .other {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .column-footer3 a h4{
+        font-size: 12px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .subscribe {
+        display: grid;
+        justify-content: center;
+    }
+
+    .tombol {
+        width: 10px;
+        height: 10px;
+    }
+
+    div form {
+        display: grid;
+    }
+
+    div strong {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
