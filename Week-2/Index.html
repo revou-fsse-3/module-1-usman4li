@@ -3,113 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ace Hardware Clon</title>
-    <!--
-        <link rel="stylesheet" href="Style.css">
-    -->
+    <title>Document</title>
     <link rel="stylesheet" href="Style_Mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header></header>
-    <nav class="container-navbar">
-        <div class="container-nav">
-            <div class="container1">
-                <!--
-                    
-                <ul class="gridnav1">
-                    <form class="site-search" action="https://www.acehardware.co.id/search" method="get">
-                        <input class="form-input" name="name" id="name" type="search" placeholder="Hello, what are you searching for?">
-                        <button class="site-search-btn" aria-label="Site Search Icon">
-                            <img src="assets/icon-search-1.png" alt>
-                        </button>
-                    </form>
-                    <a class="site-header-support" href="https://www.acehardware.co.id/store-locations/list-maps">
-                        <img src="https://www.acehardware.co.id/files/uploads/nu/icon_image/2018/Mar/22/5ab37eb817bc3/icon-nav-store-16x_.png" alt="Store Location">
-                        " Store Location "
-                    </a>
-                    <a class="site-header-support" href="https://www.acehardware.co.id/store-locations/list-maps">
-                        <img src="https://www.acehardware.co.id/files/uploads/nu/icon_image/2018/Mar/22/5ab37eb817bc3/icon-nav-store-16x_.png" alt="Store Location">
-                        " Store Location "
-                    </a>
-                    <a class="site-header-support" href="https://www.acehardware.co.id/store-locations/list-maps">
-                        <img src="https://www.acehardware.co.id/files/uploads/nu/icon_image/2018/Mar/22/5ab37eb817bc3/icon-nav-store-16x_.png" alt="Store Location">
-                        " Store Location "
-                    </a>
-                    <a class="site-header-support" href="https://www.acehardware.co.id/store-locations/list-maps">
-                        <img src="https://www.acehardware.co.id/files/uploads/nu/icon_image/2018/Mar/22/5ab37eb817bc3/icon-nav-store-16x_.png" alt="Store Location">
-                        " Store Location "
-                    </a>
-                </ul>
-                -->
-                <a class="site-logo" href="https://www.acehardware.co.id/" aria-label="Logo Icon">
-                    <img src="assets/ace-logo.png" alt>
-                </a>
-                <form class="site-search" action="https://www.acehardware.co.id/search" method="get">
-                    <input class="form-input" name="name" id="name" type="search" placeholder="Hello, what are you searching for?">
-                    <button class="site-search-btn" aria-label="Site Search Icon">
-                        <img src="assets/icon-search-1.png" alt>
-                    </button>
-                </form>
-                <div class="new-menu-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
-                    <img src="assets/menu-hamburger-1.png" loading="lazy" alt="" class="nav-menu-icon">
-                </div>
-                <ul class="gridnav1">
-                    <a class="site-header-support" href="Index.html">
-                        <img src="assets/map-1.png" alt="Store Location">
-                        <h1>Store Location</h1>
-                    </a>
-                    <a class="site-header-support" href="Index.html">
-                        <img src="assets/call-1.png" alt="Store Location">
-                        <h1>Contact Us</h1>
-                    </a>
-                    <a class="site-header-support" href="Index.html">
-                        <img src="assets/download-1.png" alt="Store Location">
-                        <h1>Download App</h1>
-                    </a>
-                    <a class="site-header-support" href="Index.html">
-                        <img src="assets/brochure-1.png" alt="Store Location">
-                        <h1>Brochure</h1>
-                    </a>
-                </ul>
-                
-            </div>
-            <!--
-            <div class="container2">
-                <h1>Product selection</h1>
-                <h1>Buy Online</h1>
-                <h1>Ace for Business</h1>
-                <h1>Whatsapp shopping</h1>
-                <h1>Ace membership</h1>
-                <h1>Inspiration</h1>
-                <h1>Sustainability</h1>
-            </div>
-            -->
-            <div class="container2">
-                <a class="site-header-support2" href="Index.html">
-                    <img src="assets/add-1.png" alt="Product Selection">
-                    <h1>Selection</h1>
-                </a>
-                <a class="site-header-support3" href="Index.html">
-                    <h2>BUY ONLINE</h2>
-                </a>
-                <a class="site-header-support3" href="Index.html">
-                    <h2>ACE FOR BUSINESS</h2>
-                </a>
-                <a class="site-header-support4" href="Index.html">
-                    <h3>WHATSAPP SHOPPING</h3>
-                </a>
-                <a class="site-header-support5" href="Index.html">
-                    <h4>ACE MEMBERSHIP</h4>
-                </a>
-                <a class="site-header-support5" href="Index.html">
-                    <h4>INSPIRATION</h4>
-                </a>
-                <a class="site-header-support5" href="Index.html">
-                    <h4>SUSTAINABILITY</h4>
-                </a>
-            </div>
+    <nav class="top-nav" id="navbar">
+        <div class="icon">
+            <a class="site-logo" href="#logo" aria-label="Logo Icon">
+                <img src="assets/ace-logo.png" alt>
+            </a>
         </div>
-    </nav>
+        <div class="search">
+            <form action="#search">
+                <input type="text" placeholder="Hello, what are you searching for?" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+        </label>
+        <ul class="gridnav1">
+            <a class="site-header-support" href="Index.html">
+                <img src="assets/map-1.png" alt="Store Location">
+                <h1>Store Location</h1>
+            </a>
+            <a class="site-header-support" href="Index.html">
+                <img src="assets/call-1.png" alt="Store Location">
+                <h1>Contact Us</h1>
+            </a>
+            <a class="site-header-support" href="Index.html">
+                <img src="assets/download-1.png" alt="Store Location">
+                <h1>Download App</h1>
+            </a>
+            <a class="site-header-support" href="Index.html">
+                <img src="assets/brochure-1.png" alt="Store Location">
+                <h1>Brochure</h1>
+            </a>
+        </ul>
+        <ul class="menu">
+          <li><a href="#product">
+            <img src="assets/add-1.png" alt="add">
+            <h1>PRODUCT SELECTION</h1>
+          </a></li>
+          <li><a href="#ace"><h1>ACE FOR BUSINESS</h1></a></li>
+          <li><a href="#wa"><h2>WHATSAPP SHOPPING</h2></a></li>
+          <li><a href="#member"><h3>ACE MEMBERSHIP</h3></a></li>
+          <li><a href="#inspirasi"><h3>INSPIRATION</h3></a></li>
+          <li><a href="#sustain"><h3>SUSTAINABILITY</h3></a></li>
+          <li><a href="#storeloc"><h3>STORE LOCATION</h3></a></li>
+          <li><a href="#contact"><h3>CONTACT US</h3></a></li>
+          <li><a href="#download"><h3>DOWNLOAD APP</h3></a></li>
+          <li><a href="#brochure"><h3>BROCHURE</h3></a></li>
+        </ul>
+      </nav>
+
     <main>
         <section>
             <div class="feature-brand">
@@ -146,18 +95,79 @@
             </div>
             <div class="promotion">
                 <h2 class="judul-promotion">PROMOTION</h2>
-                <a aria-label="Promo Link" href="Index.html">
-                    <img class="promo-utama" src="assets/promotion1.jpg" alt style>
-                </a>
                 <div class="promo2">
-                    <a aria-label="Promo Link" href="Index.html">
+                    <a aria-label="Promo Link" href="Index.html" class="promo" id="item1">
+                        <img class="promo-utama" src="assets/promotion1.jpg" alt style>
+                    </a>
+                    <a aria-label="Promo Link" href="Index.html" class="promo" id="item2">
                         <img class="promo-sekunder" src="assets/promotion2.jpg" alt style>
                     </a>
-                    <a aria-label="Promo Link" href="Index.html">
+                    <a aria-label="Promo Link" href="Index.html" class="promo" id="item3">
                         <img class="promo-sekunder" src="assets/promotion3.jpg" alt style>
                     </a>
                 </div>
             </div>
+        </section>
+        <section id="form-section">
+            <h2 class="head-form">Join, Become A Member!</h2>
+            <form class="form-member" action="#">
+                <fieldset>
+                    <legend>Personal Data :</legend>
+                    <div>
+                        <label class="nama" for="Fullname">Full Name :</label>
+                        <input id="Fullname" type="text" required>
+                    </div>
+                    <div>
+                        <label class="nama" for="email">Email :</label>
+                        <input id="email" type="email" required>
+                    </div>
+                    <div>
+                        <label class="nama" for="psw">Password</label>
+                        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                    </div>
+                    <div>
+                        <label class="nama" for="psw-repeat">Repeat Password</label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                    </div>
+                    <div>
+                        <label class="nama" for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                    <div class="living">
+                        <p>Are you living in Indonesia?</p>
+                        <input type="radio" id="yes" name="isIndonesia" value="Male">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="isIndonesia" value="Female">
+                        <label for="no">No</label>
+                    </div>
+                    <div>
+                        <p>Class Member Card</p>
+                        <input
+                            id="Silver"
+                            type="checkbox"
+                            name="personality"
+                            value="Silver"
+                         />
+                        <label for="Silver">Silver</label>
+                        <input
+                            id="Gold"
+                            type="checkbox"
+                            name="personality"
+                            value="Gold"
+                        />
+                        <label for="Gold">Gold</label>
+                        <input
+                            id="Platinum"
+                            type="checkbox"
+                            name="personality"
+                            value="Platinum"
+                        />
+                        <label for="Platinum">Platinum</label>
+                    </div>
+                    <div>
+                </fieldset>
+                <button class="submit-member" type="submit">Submit</button>
+            </form>
         </section>
     </main>
     <footer>
@@ -240,6 +250,32 @@
                 </button>
             </form>
         </div>
+        <div class="container-fluid">
+            <div class="greyBar">
+                <a href="#footer" target="_blank">
+                    <img src="assets/Member-of-Kawan-Lama-Group.png" alt="" style="width: 182px; padding-bottom:1px">
+                </a>
+            </div>
+            <div class="darkBar">
+                © 2022 PT ACE Hardware Indonesia Tbk.
+            </div>
+        </div>
     </footer>
+    
+    <!-- FOOTER -->
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 </html>
