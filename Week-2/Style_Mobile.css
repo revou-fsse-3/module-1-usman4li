@@ -15,7 +15,7 @@ html, body {
 }
 
 .top-nav {
-  display: flex;
+  display: block;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -25,7 +25,18 @@ html, body {
   height: 50px;
   padding: 1em;
 }
-
+.top-nav .satu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: aliceblue;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #FFF;
+    height: 50px;
+    padding: 1em;
+    margin-top: 0;
+}
 /*icon web*/
 .icon   {
     width: 50px;
@@ -209,6 +220,12 @@ button[type=submit] {
 .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
 }
+.menu2 {
+    display: none;
+}
+.menu-2 {
+    display: none;
+}
 /*end menu drop down*/
 /*list dropdown*/
 .menu li a {
@@ -244,6 +261,18 @@ button[type=submit] {
     top: 0;
     width: 100%;
 }
+
+.sticky .satu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky .dua {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
   
 .sticky + .content {
     padding-top: 60px;
@@ -256,6 +285,9 @@ button[type=submit] {
     display: none;
 }
 @media screen and (min-width:1280px){
+    header {
+        display: block;
+    }
     .gridnav1 {
         display: flex;
         gap: 20px;
@@ -272,20 +304,83 @@ button[type=submit] {
         width: 20px;
         height: 20px;
     }
-    .gridnav1 a h1 {
-        font-size: 18px;
+    .gridnav1 a h1,h2,h3 {
+        align-items: center;
+    text-align: center;
+    font-size: 16px;
     }
     .menu {
-        position:fixed;
+        display: none;
+    }
+    .menu2 {
+        display: flex;
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 50px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .menu2 li {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .menu2 li a{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .menu2 a h1,h2,h3 {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .menu2 li a h1,h2,h3 {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .menu2 li a h1 {
+        font-size: 16px;
+    }
+    .menu2 a img {
+        width: 1em;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .menu2 li a img {
+        width: 1em;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .menu-2 {
+        display: flex;
+        width: 100%;
+        justify-content:space-around;
+        align-items: center;
+        align-content: center;
+        padding-left: 0;
+        height: 50px;
+        margin-top: 100px;
+    }
+    .top-nav .dua {
         display: flex;
         flex-direction: row;
-        height: 50px;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        align-content: center;
         background: aliceblue;
-        margin-top: 49px;
-    }
-    .menu > li {
-        margin: 0 1rem;
-        overflow:visible;
+        color: #FFF;
+        height: 50px;
+        padding: 1em;
+        margin-top: 0;
     }
 }
 
